@@ -1,32 +1,35 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import data from '../data';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
-const Project = ({ projectId }) => {
+import data from '../data';
+
+const Project = ({ projectId, match }) => {
 	const project = data.projects.find(p => p.id === projectId);
+	console.log(match);
+
   return (
   	<ReactCSSTransitionGroup
-	      transitionName="example"
+	      transitionName="fade"
 	      transitionAppear={true}
 	      transitionAppearTimeout={500}
 	      transitionLeaveTimeout={500}
 	      transitionEnter={false}
 	      transitionLeave={true}>
     <div>
-    	<Link className="back" to='/portfolio'>&larr; Back</Link>
       <h1>{project.name}</h1>
+      <Link className="back" to='/portfolio'>&larr; Back</Link>
       <div className="project">
-      <div className="row">
-	      <div className="col-lg-7">
-	      	<img src={project.image} />
-	      </div>
-	      <div className="project-description col-lg-5">
+      
+      	<div className="project-description">
 	      	<p>{project.description}</p>
+	      </div>
+	      <div className="project-image">
+	      	<img src={project.image} />
 	      </div>
 	     </div>
     </div>
-    </div>
+    
     </ReactCSSTransitionGroup>
   )
 }

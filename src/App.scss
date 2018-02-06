@@ -3,20 +3,20 @@ body {
 }
 
 
-.example-appear {
+.fade-appear {
   opacity: 0.01;
 }
 
-.example-appear.example-appear-active {
+.fade-appear.fade-appear-active {
   opacity: 1;
   transition: opacity .5s ease-in;
 }
 
-.example-leave {
+.fade-leave {
   opacity: 1;
 }
 
-.example-leave.example-leave-active {
+.fade-leave.fade-leave-active {
   opacity: 0.01;
   transition: opacity 300ms ease-in;
 }
@@ -155,21 +155,16 @@ header.site-navigation {
 }
 
 .back {
-	background-color: navy;
-	color: white;
-	border-radius: 3px;
-	margin-bottom: 20px;
-	display: inline-block;
-	padding: 7px 12px;
+	
 }
 
 .project {
-	background-color: white;
+	
 }
 
 .project-description {
 	
-	padding: 40px 15px;
+	
 
 }
 
