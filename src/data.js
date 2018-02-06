@@ -2,6 +2,7 @@ import BusinessEnquiryPage from './images/business-enquiry-page.png';
 import OneflareAwards from './images/customer-choice-awards.png';
 import GifFetcher from './images/gif-fetcher.png';
 import ToDoList from './images/to-done-list.png';
+import Scoreboard from './images/scoreboard-react.png';
 
 const projectData = {
 	projects: [
@@ -28,6 +29,12 @@ const projectData = {
 			name: 'To-Done List',
 			description: "A classic to-do project to learn the ins and outs of React.",
 			image: ToDoList
+		},
+		{
+			id: '5',
+			name: 'Scoreboard',
+			description: "A React based scoreboard that allows players to be added and scores to be adjusted",
+			image: Scoreboard
 		}
 	]
 }
