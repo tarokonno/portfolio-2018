@@ -10,18 +10,18 @@ const About = () => (
 		      transitionEnter={false}
 		      transitionLeave={true}>
 			<div>
-				<header className="page-header">
-					<h2 className="page-title">A little bit about me</h2>
-				</header>
-
 					<div className="section" id="intro">
-						<h3>Profile</h3>
+						<h3 className="section-header">Profile</h3>
 						<div className="row">
-							<div class="col-md-9">
-								<p>I’m a Bachelor of Business (Marketing) graduate who is self taught in Frontend Web Development. I have experience in developing and delivering email marketing campaigns, webpages using HTML and CSS (Sass) and recently worked with components in React. I have a keen eye for design and layout and ensure that the UX and flow of projects make sense and are consistent within brand guidelines and project strategy. I am looking forward to furthering my skills in web development, particularly Javascript, and working within teams to deliver digital projects.</p>
+							<div class="avatar-container col-md-3">
+								<img class="avatar" src={Avatar} />
 							</div>
-							<div class="col-md-3">
-								<img src={Avatar} />
+							<div class="col-md-9">
+								<p>Hey I’m Taro, a Bachelor of Business (Marketing) graduate who is self taught in Frontend Web Development. 
+								I have experience in developing webpages using HTML and CSS (Sass) and have recently worked with components in React and am interested in creating scalable and reusable components. 
+								I have a keen eye for design and layout and ensure that the UX and flow of projects make sense and are consistent within brand guidelines and project strategy. 
+								</p>
+								<p>I am looking forward to furthering my skills in web development, particularly Javascript, and working within teams to deliver digital projects.</p>
 							</div>
 						</div>
 					</div>
@@ -29,39 +29,47 @@ const About = () => (
 					<div className="section" id="experience">
 						<h3 className="section-header">Experience</h3>
 						<div class="row">
-							<div class="col-md-8">
+							<div class="role-section col-md-12">
 								<h5 className="role-description">JUNIOR FRONTEND DEVELOPER - Oneflare</h5>
-								<p>Aug 2017 - Feb 2018</p>
+								<p class="role-date">Aug 2017 - Feb 2018</p>
+								<div className="row col-md-8">
 								<ul className="work-experience">
 									<li>Developing web pages and components within React</li>
 									<li>Performing Frontend website tasks and managing email activity while working with Product managers, Backend and Frontend Developers, UX and Designers</li>
 									<li>Working within a squad in sprints using JIRA and Github to manage and deploy tasks</li>
 								</ul>
+								</div>
 							</div>
-							<div class="col-md-8">
+							<div class="role-section col-md-12">
 								<h5 className="role-description">DIGITAL MARKETING PRODUCER - Oneflare</h5>
-								<p>Aug 2015 - Jul 2017</p>
+								<p class="role-date">Aug 2015 - Jul 2017</p>
+								<div className="row col-md-8">
 								<ul className="work-experience">
 									<li>Developing and delivering automated and tactical blast campaigns to enhance customer engagement and education</li>
 									<li>Designing assets and developing landing pages to support sales and marketing campaigns</li>
 								</ul>
+								</div>
 							</div>
-							<div class="col-md-8">
+							<div class="role-section col-md-12">
 								<h5 className="role-description">ENGAGEMENT EXECUTIVE - Global Red</h5>
-								<p>Oct 2014 - Aug 2015</p>
+								<p class="role-date">Oct 2014 - Aug 2015</p>
+								<div className="row col-md-8">
 								<ul className="work-experience">
 									<li>Developing and delivering email campaigns from client briefs</li>
 									<li>Working with developers, account managers and project managers to deliver task BAU tasks and migration projects</li>
 								</ul>
+								</div>
 							</div>
-							<div class="col-md-8">
+							<div class="role-section col-md-12">
 								<h5 className="role-description">WEB DESIGNER - Freelance</h5>
-								<p>Jul 2013 - Sept 2014</p>
+								<p class="role-date">Jul 2013 - Sept 2014</p>
+								<div className="row col-md-8">
 								<ul className="work-experience">
 									<li>Design and developing Wordpress websites for small business</li>
 									<li>Designing banners, logos and a platform reskin</li>
 									<li>Developing landing pages and eDMs</li>
 								</ul>
+								</div>
 							</div>
 						</div>
 					</div>

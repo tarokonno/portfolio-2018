@@ -20,7 +20,7 @@ const projectData = {
 		},
 		{
 			id: '3',
-			name: 'Gif Searcher',
+			name: 'Gif Fetcher',
 			description: "A practice project to learn how to fetch data from an API and display it in a React app.",
 			image: GifFetcher
 		},
