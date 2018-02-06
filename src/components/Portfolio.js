@@ -37,7 +37,7 @@ const Portfolio = ({ match }) => {
       transitionAppear={true}
       transitionAppearTimeout={500}
       transitionLeaveTimeout={500}
-      transitionEnter={false}
+      transitionEnter={true}
       transitionLeave={true}>
 			<div>
 				

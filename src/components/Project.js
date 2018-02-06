@@ -14,7 +14,7 @@ const Project = ({ projectId, match }) => {
 	      transitionAppear={true}
 	      transitionAppearTimeout={500}
 	      transitionLeaveTimeout={500}
-	      transitionEnter={false}
+	      transitionEnter={true}
 	      transitionLeave={true}>
     <div>
       <h1>{project.name}</h1>

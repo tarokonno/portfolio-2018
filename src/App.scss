@@ -48,7 +48,7 @@ body {
 
 	.section {
 		padding: 40px;
-		background-color: rgba(255,255,255,1);
+		background-color: rgba(255,255,255,0.9);
 		border-radius: 3px;
 		margin-bottom: 30px;
 
@@ -181,6 +181,15 @@ header.site-navigation {
 	font-size: 48px;
 }
 
+.skill-image {
+	text-align: center;
+	text-transform: uppercase;
+
+	img {
+		width: 60px;
+		padding-bottom: 20px;
+	}
+}
 .section-header {
 	margin-bottom: 30px;
 }
@@ -191,21 +200,38 @@ header.site-navigation {
 
 .role-description {
 	font-size: 18px;
-	padding: 5px 15px;
-	background-color: #607b8b;
-	color: white;
+	line-height: 30px;
+	
+	color: #607b8b;
 	display: inline-block;
-	margin-bottom: 20px;
+
+	@media (min-width: 960px) {
+		border-bottom: 2px solid #607b8b;
+	}
+}
+
+.date-container {
+	display: block;
+	width: 100%;
+	
+	@media (min-width: 960px) {
+		display: table;
+		padding: 0 10px 10px;
+	}
 }
 
 .role-date {
 	border: 1px solid #607b8b;
 	color: #607b8b;
-	display: inline;
-	float: right;
-	font-size: 12px;
-	padding: 5px 10px;
+	display: table;
+	font-size: 11px;
+	padding: 2px 10px;
 	text-transform: uppercase;
+
+	@media (min-width: 960px) {
+		float: right;
+		display: block;
+	}
 }
 
 .project-description {
