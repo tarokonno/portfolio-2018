@@ -12,9 +12,9 @@ const Header = () => (
 		</div>
 		<nav>
 			<ul>
-				<li><NavLink to='/about'>About</NavLink></li>
-				<li><NavLink to='/portfolio'>Portfolio</NavLink></li>
-				<li><NavLink to='/contact'>Contact</NavLink></li>
+				<li><NavLink to='/portfolio-2018/about'>About</NavLink></li>
+				<li><NavLink to='/portfolio-2018/portfolio'>Portfolio</NavLink></li>
+				<li><NavLink to='/portfolio-2018/contact'>Contact</NavLink></li>
 			</ul>
 		</nav>
 	</header>
