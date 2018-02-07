@@ -6,9 +6,9 @@ import Portfolio from './Portfolio';
 
 const Main = () => (
 	<div className="main">
-		<Route exact path='/' component={About} />
-		<Route path='/about' component={About} />
-		<Route path='/portfolio/:project?' component={Portfolio} />
+		<Route exact path='/portfolio-2018/' component={About} />
+		<Route path='/portfolio-2018/about' component={About} />
+		<Route path='/portfolio-2018/portfolio/:project?' component={Portfolio} />
 	</div>
 )
 
