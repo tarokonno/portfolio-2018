@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
-import data from '../data';
+import projectData from '../projectData';
 import Project from './Project';
 
 const Projects = () => {
@@ -13,12 +13,14 @@ const Projects = () => {
 		</header>
 		<div className="row">
 			{ 
-				data.projects.map(project => (
+				projectData.projects.map(project => (
 					<div className="col-sm-6" key={project.id}>
-					<div className="project-tile">
-						<Link to={`/portfolio/${project.id}`}><img className="portfolio-image" alt={project.name} src={project.image} /></Link>
-						<h2>{project.name}</h2>
-						</div>
+						<Link to={`/portfolio-2018/portfolio/${project.id}`}>
+							<div className="project-tile">
+								<img className="portfolio-image" alt={project.name} src={project.image} />
+								<h2>{project.name}</h2>
+							</div>
+						</Link>
 					</div>
 				))
 			}

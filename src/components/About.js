@@ -38,11 +38,10 @@ const About = () => (
 								<img className="avatar" src={Avatar} />
 							</div>
 							<div className="col-md-9">
-								<p>Hey I’m Taro, a Bachelor of Business (Marketing) graduate who is self taught in Frontend Web Development. 
-								I have experience in developing webpages using HTML and CSS (Sass) and have recently worked with components in React and am interested in learning more about scalable and reusable components. 
-								I have a keen eye for design and layout and ensure that the UX and flow of projects make sense and are consistent within brand guidelines and project strategy. 
+								<p>Born and bred in Sydney and moving to London in March, I’m a Bachelor of Business (Marketing) graduate who is self taught in Frontend Web Development. I have experience in developing and delivering email marketing campaigns, webpages using HTML and CSS (Sass) and recently worked with components in React. I have a keen eye for design and layout and ensure that the UX and flow of projects make sense and are consistent within brand guidelines and project strategy.
 								</p>
 								<p>I am looking forward to furthering my skills in web development, particularly Javascript, and working within teams 👯‍♂️ to deliver digital projects. 🙏</p>
+								<p>On another note, I love playing and watching football ⚽, travelling to see new exciting places and meet new interesting people and you'll definitely catch me binge watching TV series and movies wherever I am!</p>
 							</div>
 						</div>
 					</div>
