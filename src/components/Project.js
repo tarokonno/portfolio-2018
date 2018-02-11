@@ -19,8 +19,8 @@ const Project = ({ projectId, match }) => {
     <div>
       <h1 className="section-header">{project.name}</h1>
       <Link className="back" to='/portfolio-2018/portfolio'>&larr; Back</Link>
-      
-      	<div className="row col-md-10">
+      	<div className="row">
+      	<div className="col-md-10 col-12">
       		<div className="project ">
 			      <div className="project-image">
 			      	<a href={project.url} target="_blank">
@@ -52,6 +52,7 @@ const Project = ({ projectId, match }) => {
 			      </div>
 			     </div>
 		     </div>
+		    </div>
     </div>
     
     </ReactCSSTransitionGroup>

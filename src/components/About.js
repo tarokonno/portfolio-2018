@@ -32,7 +32,7 @@ const About = () => (
 		      transitionLeave={true}>
 			<div>
 					<div className="section" id="intro">
-						<h3 className="section-header">Profile 🇬🇧 🇯🇵</h3>
+						<h3 className="section-header">This is me in a bubble ...</h3>
 						<div className="row">
 							<div className="avatar-container col-md-3">
 								<img className="avatar" src={Avatar} />
@@ -41,13 +41,15 @@ const About = () => (
 								<p>Born and bred in Sydney and moving to London in March, I’m a Bachelor of Business (Marketing) graduate who is self taught in Frontend Web Development. I have experience in developing and delivering email marketing campaigns, webpages using HTML and CSS (Sass) and recently worked with components in React. I have a keen eye for design and layout and ensure that the UX and flow of projects make sense and are consistent within brand guidelines and project strategy.
 								</p>
 								<p>I am looking forward to furthering my skills in web development, particularly Javascript, and working within teams 👯‍♂️ to deliver digital projects. 🙏</p>
-								<p>On another note, I love playing and watching football ⚽, travelling to see new exciting places and meet new interesting people and you'll definitely catch me binge watching TV series and movies wherever I am!</p>
+								<p>On another note, I love playing and watching football ⚽, travelling to see new exciting places 🌴 and meet new interesting people and you'll definitely catch me binge watching TV series and movies 🎥 wherever I am!</p>
+								<p>Let's have a chat! ☕</p>
+								<p>- Taro</p>
 							</div>
 						</div>
 					</div>
 
 					<div className="section" id="experience">
-						<h3 className="section-header">Experience</h3>
+						<h3 className="section-header">These are some roles I got paid for!</h3>
 						<div className="row">
 							<div className="role-section col-md-12">
 								<div className="date-container">
@@ -96,7 +98,7 @@ const About = () => (
 						</div>
 					</div>
 					<div className="section" id="skills">
-						<h3 className="section-header">Skills</h3>
+						<h3 className="section-header">These are some mad skills</h3>
 						<div className="row">
 							<div className="skill-image col-md-2 col-4">
 								<img title="Html5" src={Html5} />
@@ -161,7 +163,7 @@ const About = () => (
 						</div>
 					</div>
 					<div className="section" id="facts">
-						<h3>Personal Achievements</h3>
+						<h3 className="section-header">These are some show offy stuff</h3>
 						<ul>
 							<li>Manchester United and England Tour Squad (Parramatta Eagles Soccer Academy) 2003</li>
 							<li>Adidas 'Earn Your Stripes' Skill Competition Winner 2004</li>
