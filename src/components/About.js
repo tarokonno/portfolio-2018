@@ -58,9 +58,8 @@ const About = () => (
 								</div>
 								<div className="row col-md-8">
 								<ul className="work-experience">
-									<li>Developing web pages and components within React</li>
-									<li>Performing Frontend website tasks and managing email activity while working with Product managers, Backend and Frontend Developers, UX and Designers</li>
-									<li>Working within a squad in sprints using JIRA and Github to manage and deploy tasks</li>
+									<li>Worked in a cross functional product squad alongside other Frontend & Ruby developers, UX, Designers, Product managers and Data Analytic Engineers</li>
+									<li>Responsibilities included building new features as well as iterative updates to existing features using HTML, JavaScript, CSS (LESS/SASS) as well as assisted with Oneflare's journey to transform the UI to React.</li>
 								</ul>
 								</div>
 							</div>
