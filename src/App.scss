@@ -71,7 +71,7 @@ header.site-navigation {
 	}
 
 	.identity {
-		margin-bottom: 40px;
+		margin-bottom: 30px;
 		text-align: left;
 
 		@media (max-width: 768px) {
@@ -99,19 +99,33 @@ header.site-navigation {
 
 		.logo {
 			width: 70px;
-			margin-bottom: 20px;
+			margin-bottom: 30px;
 
 			@media (max-width: 768px) {
-				width: 60px;
-				margin-bottom: 10px;
+				width: 50px;
+
 			}
+		}
+	}
+
+	.social-icons {
+		text-align: left;
+		width: 100%;
+		margin-bottom: 20px;
+
+		@media (max-width: 768px) {
+			text-align: center;
+		}
+
+		svg {
+			margin-right: 10px;
 		}
 	}
 
 	nav {
 
 		@media (max-width: 768px) {
-			margin-bottom: 40px;
+			margin-bottom: 30px;
 		}
 
 		ul {
@@ -253,6 +267,10 @@ header.site-navigation {
 	}
 }
 
+.page-title {
+	margin-bottom: 40px;
+}
+
 .button-primary {
 	border: 1px solid #35586C;
 	color: #35586C;
@@ -343,6 +361,26 @@ header.site-navigation {
     background-size: 70px;
     transition: all 0.3s ease-in-out;
 	}
+}
+
+.contact-page {
+	h4 {
+		font-size: 18px;
+		line-height: 1.5;
+		margin-bottom: 40px;
+	}
+
+	.contact-social {
+		font-size: 18px;
+		margin-bottom: 10px;
+		vertical-align: middle;
+
+		svg {
+			margin-right: 20px;
+			vertical-align: middle;
+		}
+	}
+
 }
 
 header.page-header {

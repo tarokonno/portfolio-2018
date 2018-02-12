@@ -2,6 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Avatar from '../images/avatar.png';
 import Logo from '../images/logo.png';
+import Facebook from '../images/facebook-logo';
+import Linkedin from '../images/linkedin';
+import Github from '../images/github-logo';
+import Email from '../images/email-icon';
 
 const Header = () => (
 	<header className="site-navigation">
@@ -9,6 +13,12 @@ const Header = () => (
 		<img className="logo" src={Logo} alt="Avatar"/>
 			<h1>TARO KONNO</h1>
 			<h5>FRONT END DEVELOPER</h5>
+		</div>
+		<div className="social-icons">
+			<a href="https://www.linkedin.com/in/tarokonno" target="_blank"><Linkedin className="social-icon" /></a>
+			<a href="https://github.com/tarokonno" target="_blank"><Github className="social-icon" /></a>
+			<a href="mailto:tarokonno7@gmail.com" target="_blank"><Email className="social-icon" /></a>
+			<a href="https://www.facebook.com/taro.konno" target="_blank"><Facebook className="social-icon" /></a>
 		</div>
 		<nav>
 			<ul>
