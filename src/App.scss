@@ -2,6 +2,12 @@ body {
 	font-family: 'Open Sans', Helevetica Neue, Helvetica, sans-serif;
 }
 
+p, li, a {
+	color: #555555;
+	font-size: 16px;
+	line-height: 1.8;
+}
+
 
 .fade-appear {
   opacity: 0.01;
@@ -49,11 +55,27 @@ body {
 	.section {
 		padding: 40px;
 		background-color: rgba(255,255,255,0.8);
-		border-radius: 3px;
+		border-radius: 0px;
 		margin-bottom: 30px;
 
 		@media (max-width: 768px) {
 			padding: 40px 30px;
+		}
+
+		.section-header {
+			margin-bottom: 40px;
+			color: #35586C;
+			font-size: 24px;
+			text-transform: uppercase;
+			font-family: 'Helvetica Neue', Helvetica, Arial, san-serif;
+		}
+
+		.section-content {
+			margin-bottom: 30px;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
 		}
 	}
 }
@@ -63,7 +85,6 @@ img {
 }
 
 header.site-navigation {
-
 
 	@media (min-width: 768px) {
 		text-align: left;
@@ -111,15 +132,26 @@ header.site-navigation {
 	.social-icons {
 		text-align: left;
 		width: 100%;
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 
 		@media (max-width: 768px) {
 			text-align: center;
+			margin-bottom: 20px;
 		}
 
 		svg {
-			margin-right: 10px;
+			margin-right: 15px;
 		}
+
+		.social-icon {
+			fill: rgba(255,255,255,0.3);
+			transition: all 0.2s ease-in-out;
+			
+			&:hover  {
+				fill: rgba(255,255,255,1);
+			}
+		}
+		
 	}
 
 	nav {
@@ -146,7 +178,7 @@ header.site-navigation {
 				}
 
 				a {
-					border-radius: 3px;
+					border-radius: 0px;
 					font-weight: bold;
 					color: black;
 					display: inline-block;
@@ -183,7 +215,7 @@ header.site-navigation {
 	}
 }
 .avatar {
-	border-radius: 100%;
+	border-radius: 000%;
 	max-width: 180px;
 	margin: 0 auto;
 	text-align: center;
@@ -202,9 +234,6 @@ header.site-navigation {
 		width: 60px;
 		padding-bottom: 20px;
 	}
-}
-.section-header {
-	margin-bottom: 30px;
 }
 
 .role-section {
@@ -251,7 +280,7 @@ header.site-navigation {
 }
 
 .project {
-	border-radius: 5px;
+	border-radius: 0px;
 	overflow: hidden;
 }
 
@@ -262,13 +291,18 @@ header.site-navigation {
 		margin-bottom: 40px;
 	}
 
-	.title {
+	.project-title {
+		color: #35586C;
+		font-size: 24px;
 		margin-bottom: 20px;
 	}
 }
 
 .page-title {
 	margin-bottom: 40px;
+	font-size: 32px;
+	color: rgba(255,255,255,0.7);
+	font-family: 'Helvetica Neue', Helvetica, Arial, san-serif;
 }
 
 .button-primary {
@@ -300,7 +334,7 @@ header.site-navigation {
 				margin-right: 15px;
 				background-color: #fafafa;
 				border: 1px solid #ddd;
-				border-radius: 3px;
+				border-radius: 0px;
 				padding: 2px 10px;
 			}
 		}
@@ -313,7 +347,7 @@ header.site-navigation {
 
 .back {
 	margin-bottom: 20px;
-	display: block;
+	display: inline-block;
 	color: white;
 	opacity: 0.6;
 	text-transform: uppercase;
@@ -370,14 +404,42 @@ header.site-navigation {
 		margin-bottom: 40px;
 	}
 
-	.contact-social {
-		font-size: 18px;
-		margin-bottom: 10px;
-		vertical-align: middle;
+	.contact-social-icons {
 
-		svg {
-			margin-right: 20px;
+		@media (max-width: 960px) {
+			margin-bottom: 40px;
+		}
+
+		.contact-social-icon {
+			font-size: 18px;
+			margin-bottom: 10px;
 			vertical-align: middle;
+
+			a {
+				font-size: 18px;
+			}
+
+			svg {
+				margin-right: 20px;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			.facebook-logo {
+				fill: #3b5998;
+			}
+
+			.linkedin-logo {
+				fill: #0077b5;
+			}
+
+			.email-icon {
+				fill: #000;
+			}
+
+			.mobile-icon {
+				fill: #000;
+			}
 		}
 	}
 

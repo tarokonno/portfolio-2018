@@ -32,26 +32,26 @@ const About = () => (
 		      transitionLeave={true}>
 			<div>
 					<div className="section" id="intro">
-						<h3 className="section-header">This is me in a bubble ...</h3>
+						<h3 className="section-header">Who dis?</h3>
 						<div className="row">
 							<div className="avatar-container col-md-3">
 								<img className="avatar" src={Avatar} />
 							</div>
 							<div className="col-md-9">
-								<p>Born and bred in Sydney and moving to London in March, I’m a Bachelor of Business (Marketing) graduate who is self taught in Frontend Web Development. I have experience in developing and delivering email marketing campaigns, webpages using HTML and CSS (Sass) and recently worked with components in React. I have a keen eye for design and layout and ensure that the UX and flow of projects make sense and are consistent within brand guidelines and project strategy.
+								<p>Hi I'm Taro, born and bred in Sydney to a Scottish mother and a Japanese dad I’m a Bachelor of Business (Marketing) graduate who is self taught in Frontend Web Development. I have experience in developing and delivering email marketing campaigns, webpages using HTML and CSS (Sass) and have recently worked with components using React. I have a keen eye for design and layout and ensure that the UX and flow of projects make sense and are consistent within brand guidelines and project strategy.
 								</p>
-								<p>I am looking forward to furthering my skills in web development, particularly Javascript, and working within teams 👯‍♂️ to deliver digital projects. 🙏</p>
-								<p>On another note, I love playing and watching football ⚽, travelling to see new exciting places 🌴 and meet new interesting people and you'll definitely catch me binge watching TV series and movies 🎥 wherever I am!</p>
+								<p>I'm in Frontend Development because it is a great balance of critical thinking and problem solving while fueling the creative side into delivering visually appealing work. I am looking forward to furthering my skills in web development, particularly Javascript, and working within teams to deliver digital projects.</p>
+								<p>On another note, I love playing and watching football ⚽, travelling to see new exciting places, 🌴 meeting interesting people and you'll definitely catch me binge watching TV series and movies 🎥 wherever I am!</p>
 								<p>Let's have a chat! ☕</p>
-								<p>- Taro</p>
+								<p>- TK</p>
 							</div>
 						</div>
 					</div>
 
 					<div className="section" id="experience">
-						<h3 className="section-header">These are some roles I got paid for!</h3>
+						<h3 className="section-header">Experience!</h3>
 						<div className="row">
-							<div className="role-section col-md-12">
+							<div className="section-content col-md-12">
 								<div className="date-container">
 									<h5 className="role-description">JUNIOR FRONTEND DEVELOPER - Oneflare</h5>
 									<p className="role-date">Aug 2017 - Feb 2018</p>
@@ -64,7 +64,7 @@ const About = () => (
 								</ul>
 								</div>
 							</div>
-							<div className="role-section col-md-12">
+							<div className="section-content col-md-12">
 								<h5 className="role-description">DIGITAL MARKETING PRODUCER - Oneflare</h5>
 								<p className="role-date">Aug 2015 - Jul 2017</p>
 								<div className="row col-md-8">
@@ -74,7 +74,7 @@ const About = () => (
 								</ul>
 								</div>
 							</div>
-							<div className="role-section col-md-12">
+							<div className="section-content col-md-12">
 								<h5 className="role-description">ENGAGEMENT EXECUTIVE - Global Red</h5>
 								<p className="role-date">Oct 2014 - Aug 2015</p>
 								<div className="row col-md-8">
@@ -84,7 +84,7 @@ const About = () => (
 								</ul>
 								</div>
 							</div>
-							<div className="role-section col-md-12">
+							<div className="section-content col-md-12">
 								<h5 className="role-description">WEB DESIGNER - Freelance</h5>
 								<p className="role-date">Jul 2013 - Sept 2014</p>
 								<div className="row col-md-8">
@@ -98,7 +98,7 @@ const About = () => (
 						</div>
 					</div>
 					<div className="section" id="skills">
-						<h3 className="section-header">These are some mad skills</h3>
+						<h3 className="section-header">Skills!</h3>
 						<div className="row">
 							<div className="skill-image col-md-2 col-4">
 								<img title="Html5" src={Html5} />
@@ -123,6 +123,9 @@ const About = () => (
 							</div>
 							<div className="skill-image col-md-2 col-4">
 								<img title="Bootstrap" src={Bootstrap} />
+							</div>
+							<div className="skill-image col-md-2 col-4">
+								<img title="Github" src={Github} />
 							</div>
 							<div className="skill-image col-md-2 col-4">
 								<img title="Jira" src={Jira} />
@@ -163,15 +166,27 @@ const About = () => (
 						</div>
 					</div>
 					<div className="section" id="facts">
-						<h3 className="section-header">These are some show offy stuff</h3>
-						<ul>
-							<li>Manchester United and England Tour Squad (Parramatta Eagles Soccer Academy) 2003</li>
-							<li>Adidas 'Earn Your Stripes' Skill Competition Winner 2004</li>
-							<li>NSW Premier League Champions (Parramatta Eagles) 2004</li>
-							<li>Bachelor of Business (University of Technology Sydney) 2011</li>
-							<li>Champions of Champions Tournament Winners and MVP Award 2013</li>
-							<li>CEO Award April 2016 – Oneflare</li>
-						</ul>
+						<h3 className="section-header">Other things</h3>
+						<div className="section-content">
+							<h4>Achievements:</h4>
+							<ul>
+								<li>Manchester United and England Tour Squad (Parramatta Eagles Soccer Academy) 2003</li>
+								<li>Adidas 'Earn Your Stripes' Skill Competition Winner 2004</li>
+								<li>NSW Premier League Champions (Parramatta Eagles) 2004</li>
+								<li>Bachelor of Business (University of Technology Sydney) 2011</li>
+								<li>Champions of Champions Tournament Winners and MVP Award 2013</li>
+								<li>CEO Award April 2016 – Oneflare</li>
+							</ul>
+						</div>
+						<div className="section-content">
+							<h4>Other Involvement:</h4>
+							<ul>
+								<li>Sutherland 2 Surf Fundraiser for Australian Youth Against Cancer (AYAC) 2010</li>
+								<li>Soccer (football) skills coaching 2010-2012</li>
+								<li>London Tube Coin Collections 2012-2013 (RNIB)</li>
+								<li>Sydney Morning Herald Half Marathon 2015</li>
+							</ul>
+						</div>
 					</div>
 
 			</div>

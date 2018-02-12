@@ -17,7 +17,7 @@ const Project = ({ projectId, match }) => {
 	      transitionEnter={true}
 	      transitionLeave={true}>
     <div>
-      <h1 className="section-header">{project.name}</h1>
+      <h1 className="page-title">{project.name}</h1>
       <Link className="back" to='/portfolio-2018/portfolio'>&larr; Back</Link>
       	<div className="row">
       	<div className="col-md-10 col-12">
@@ -28,8 +28,7 @@ const Project = ({ projectId, match }) => {
 			      	</a>
 			      </div>
 			      <div className="project-description-container">
-			      <div className="project-description">
-				      	<h4 className="title">Stack</h4>
+			      	<div className="project-description">
 				      	<ul className="list-unstyled stack">
 				      		{project.stack.map((name, index) => {
                     return <li key={ index }>{name}</li>;
@@ -37,17 +36,16 @@ const Project = ({ projectId, match }) => {
 				      	</ul>
 				      </div>
 			      	<div className="project-description">
-			      		<h4 className="title">Objective?</h4>
+			      		<h4 className="project-title">Objective?</h4>
 			      		<p>{project.description}</p>
 			      	</div>
 			      	<div className="project-description">
-				      	<h4 className="title">What did I learn?</h4>
+				      	<h4 className="project-title">What did I learn?</h4>
 				      	<p>{project.skills}</p>
 				      </div>
-				      
-				      
+
 				      <center>
-				     	<a className="button-primary" href={project.url} target='_blank'>See it in action</a>
+				     		<a className="button-primary" href={project.url} target='_blank'>See it in action</a>
 				     	</center>
 			      </div>
 			     </div>
