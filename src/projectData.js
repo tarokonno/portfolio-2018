@@ -1,5 +1,6 @@
 import BusinessEnquiryPage from './images/business-enquiry-page.png';
 import OneflareAwards from './images/customer-choice-awards.png';
+import CostGuide from './images/cost-guide.png';
 import GifFetcher from './images/gif-fetcher.png';
 import ToDoList from './images/to-done-list.png';
 import Scoreboard from './images/scoreboard-react.png';
@@ -26,6 +27,15 @@ const projectData = {
 		},
 		{
 			id: '3',
+			name: 'Cost Guide Centre',
+			description: 'An SEO content strategy to provide costs and information on Oneflare\'s service categories.',
+			image: CostGuide,
+			skills: 'Working with the Rails developers to structure routes and data and working within the Rails framework using partials to structure the layout and designs from Sketch mockups.',
+			stack: ['Rails', 'Sass'],
+			url: 'https://www.oneflare.com.au/costs'
+		},
+		{
+			id: '4',
 			name: 'Gif Fetcher',
 			description: 'A fun tutorial project from Treehouse to fetch data from the Giphy API and display information on the front end.',
 			image: GifFetcher,
@@ -34,7 +44,7 @@ const projectData = {
 			url: 'https://tarokonno.github.io/gif-fetcher'
 		},
 		{
-			id: '4',
+			id: '5',
 			name: 'To-Done List',
 			description: "A classic to-do app tutorial from Treehouse to learn the ins and outs of React.",
 			image: ToDoList,
@@ -43,7 +53,7 @@ const projectData = {
 			url: 'https://tarokonno.github.io/taro-todo-app'
 		},
 		{
-			id: '5',
+			id: '6',
 			name: 'Scoreboard',
 			description: "A React based scoreboard app tutorial from Treehouse that allows players to be added and scores to be adjusted",
 			image: Scoreboard,
