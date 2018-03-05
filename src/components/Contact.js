@@ -22,7 +22,7 @@ const Contact = () => (
 			<h4>Please feel free to get in contact, connect or lurk around through my social media.</h4>
 			<div className="row">
 				<div className="contact-social-icons col-lg-6 col-md-12">
-					<div className="contact-social-icon"><Mobile />+61 414 077 814</div>
+					<div className="contact-social-icon"><Mobile />07 533 080 781</div>
 					<div className="contact-social-icon">
 						<a href="mailto:tarokonno7@gmail.com" target="_blank" rel="noopener noreferrer"><Email /> tarokonno7@gmail.com</a>
 					</div>
